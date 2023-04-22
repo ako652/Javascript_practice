@@ -8,3 +8,5 @@ let input = [
 
 // please extract only the name from input array.
 // expected outcome: ["John", "Mike", "Danny", "Lisa", "Sophie"];
+const NameArray = input.map((element) => element.name)
+console.log(NameArray)
